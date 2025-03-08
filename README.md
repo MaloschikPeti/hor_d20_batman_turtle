@@ -53,6 +53,10 @@ flowchart TD
 
 U([/batman_draw]):::red -->  CMD[ /turtle1/cmd_vel<br/>geometry_msgs/Twist]:::light --> S([/sim]):::red
 
+flowchart TD
+
+U([bridgedraw.py]):::red -->  CMD[ /turtle1/cmd_vel<br/>geometry_msgs/Twist]:::light --> S([turtlesim_node]):::red
+
 classDef light fill:#34aec5,stroke:#152742,stroke-width:2px,color:#152742  
 classDef dark fill:#152742,stroke:#34aec5,stroke-width:2px,color:#34aec5
 classDef white fill:#ffffff,stroke:#152742,stroke-width:2px,color:#152742
